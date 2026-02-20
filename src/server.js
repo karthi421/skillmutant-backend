@@ -35,7 +35,10 @@ app.use(
   })
 );
 app.use(express.json());
-
+app.use((req, res, next) => {
+  res.set("Cache-Control", "no-store");
+  next();
+});
 /* ================= STATIC ================= */
 
 app.use("/uploads", express.static(path.join(process.cwd(), "uploads")));
