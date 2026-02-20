@@ -1,0 +1,14 @@
+[
+  { "platform": "leetcode", "title": "Palindrome Number", "difficulty": "Easy", "topic": "math", "url": "https://leetcode.com/problems/palindrome-number/" },
+  { "platform": "leetcode", "title": "Roman to Integer", "difficulty": "Easy", "topic": "math", "url": "https://leetcode.com/problems/roman-to-integer/" },
+  { "platform": "leetcode", "title": "Fizz Buzz", "difficulty": "Easy", "topic": "math", "url": "https://leetcode.com/problems/fizz-buzz/" },
+  { "platform": "leetcode", "title": "Happy Number", "difficulty": "Easy", "topic": "math", "url": "https://leetcode.com/problems/happy-number/" },
+
+  { "platform": "leetcode", "title": "Pow(x, n)", "difficulty": "Medium", "topic": "math", "url": "https://leetcode.com/problems/powx-n/" },
+  { "platform": "leetcode", "title": "Multiply Strings", "difficulty": "Medium", "topic": "math", "url": "https://leetcode.com/problems/multiply-strings/" },
+  { "platform": "leetcode", "title": "Integer to Roman", "difficulty": "Medium", "topic": "math", "url": "https://leetcode.com/problems/integer-to-roman/" },
+
+  { "platform": "leetcode", "title": "Max Points on a Line", "difficulty": "Hard", "topic": "math", "url": "https://leetcode.com/problems/max-points-on-a-line/" },
+  { "platform": "leetcode", "title": "Number of Digit One", "difficulty": "Hard", "topic": "math", "url": "https://leetcode.com/problems/number-of-digit-one/" },
+  { "platform": "leetcode", "title": "Permutation Sequence", "difficulty": "Hard", "topic": "math", "url": "https://leetcode.com/problems/permutation-sequence/" }
+]

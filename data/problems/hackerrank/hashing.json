@@ -1,0 +1,24 @@
+[
+  { "platform": "hackerrank", "title": "Hash Tables: Ransom Note", "difficulty": "Easy", "topic": "hashing", "url": "https://www.hackerrank.com/challenges/ctci-ransom-note/problem" },
+  { "platform": "hackerrank", "title": "Two Strings", "difficulty": "Easy", "topic": "hashing", "url": "https://www.hackerrank.com/challenges/two-strings/problem" },
+  { "platform": "hackerrank", "title": "Sparse Arrays", "difficulty": "Easy", "topic": "hashing", "url": "https://www.hackerrank.com/challenges/sparse-arrays/problem" },
+  { "platform": "hackerrank", "title": "Sales by Match", "difficulty": "Easy", "topic": "hashing", "url": "https://www.hackerrank.com/challenges/sock-merchant/problem" },
+  { "platform": "hackerrank", "title": "Ice Cream Parlor", "difficulty": "Easy", "topic": "hashing", "url": "https://www.hackerrank.com/challenges/icecream-parlor/problem" },
+  { "platform": "hackerrank", "title": "Missing Numbers", "difficulty": "Easy", "topic": "hashing", "url": "https://www.hackerrank.com/challenges/missing-numbers/problem" },
+  { "platform": "hackerrank", "title": "Pangrams", "difficulty": "Easy", "topic": "hashing", "url": "https://www.hackerrank.com/challenges/pangrams/problem" },
+  { "platform": "hackerrank", "title": "Gemstones", "difficulty": "Easy", "topic": "hashing", "url": "https://www.hackerrank.com/challenges/gemstones/problem" },
+  { "platform": "hackerrank", "title": "Funny String", "difficulty": "Easy", "topic": "hashing", "url": "https://www.hackerrank.com/challenges/funny-string/problem" },
+  { "platform": "hackerrank", "title": "Permuting Two Arrays", "difficulty": "Easy", "topic": "hashing", "url": "https://www.hackerrank.com/challenges/two-arrays/problem" },
+
+  { "platform": "hackerrank", "title": "Sherlock and Anagrams", "difficulty": "Medium", "topic": "hashing", "url": "https://www.hackerrank.com/challenges/sherlock-and-anagrams/problem" },
+  { "platform": "hackerrank", "title": "Count Triplets", "difficulty": "Medium", "topic": "hashing", "url": "https://www.hackerrank.com/challenges/count-triplets-1/problem" },
+  { "platform": "hackerrank", "title": "Frequency Queries", "difficulty": "Medium", "topic": "hashing", "url": "https://www.hackerrank.com/challenges/frequency-queries/problem" },
+  { "platform": "hackerrank", "title": "Pairs", "difficulty": "Medium", "topic": "hashing", "url": "https://www.hackerrank.com/challenges/pairs/problem" },
+  { "platform": "hackerrank", "title": "Maximum Palindromes", "difficulty": "Medium", "topic": "hashing", "url": "https://www.hackerrank.com/challenges/maximum-palindromes/problem" },
+
+  { "platform": "hackerrank", "title": "Triple Sum", "difficulty": "Hard", "topic": "hashing", "url": "https://www.hackerrank.com/challenges/triple-sum/problem" },
+  { "platform": "hackerrank", "title": "Query Sum", "difficulty": "Hard", "topic": "hashing", "url": "https://www.hackerrank.com/challenges/query-sum/problem" },
+  { "platform": "hackerrank", "title": "Count Special Substrings", "difficulty": "Hard", "topic": "hashing", "url": "https://www.hackerrank.com/challenges/special-palindrome-again/problem" },
+  { "platform": "hackerrank", "title": "Longest Duplicate Substring", "difficulty": "Hard", "topic": "hashing", "url": "https://www.hackerrank.com/challenges/longest-duplicate-substring/problem" },
+  { "platform": "hackerrank", "title": "Queries with Fixed Range", "difficulty": "Hard", "topic": "hashing", "url": "https://www.hackerrank.com/challenges/queries-with-fixed-range/problem" }
+]

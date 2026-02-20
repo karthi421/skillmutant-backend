@@ -1,0 +1,24 @@
+[
+  { "platform": "codechef", "title": "Lapindromes", "difficulty": "Easy", "topic": "strings", "url": "https://www.codechef.com/problems/LAPIN" },
+  { "platform": "codechef", "title": "Chef and Wildcard Matching", "difficulty": "Easy", "topic": "strings", "url": "https://www.codechef.com/problems/CHOPRT" },
+  { "platform": "codechef", "title": "World Record", "difficulty": "Easy", "topic": "strings", "url": "https://www.codechef.com/problems/BOLT" },
+  { "platform": "codechef", "title": "Studying Alphabet", "difficulty": "Easy", "topic": "strings", "url": "https://www.codechef.com/problems/ALPHABET" },
+  { "platform": "codechef", "title": "Pawri Meme", "difficulty": "Easy", "topic": "strings", "url": "https://www.codechef.com/problems/PAWRI" },
+  { "platform": "codechef", "title": "Magical Doors", "difficulty": "Easy", "topic": "strings", "url": "https://www.codechef.com/problems/MAGDOORS" },
+  { "platform": "codechef", "title": "Wordle", "difficulty": "Easy", "topic": "strings", "url": "https://www.codechef.com/problems/WORDLE" },
+  { "platform": "codechef", "title": "Snake Procession", "difficulty": "Easy", "topic": "strings", "url": "https://www.codechef.com/problems/SNAKPROC" },
+  { "platform": "codechef", "title": "Chef and the Wildcard Matching", "difficulty": "Easy", "topic": "strings", "url": "https://www.codechef.com/problems/WMATCH" },
+  { "platform": "codechef", "title": "Compress the Video", "difficulty": "Easy", "topic": "strings", "url": "https://www.codechef.com/problems/COMPRESSVD" },
+
+  { "platform": "codechef", "title": "The Next Palindrome", "difficulty": "Medium", "topic": "strings", "url": "https://www.codechef.com/problems/PALIN" },
+  { "platform": "codechef", "title": "Count Substrings", "difficulty": "Medium", "topic": "strings", "url": "https://www.codechef.com/problems/CSUB" },
+  { "platform": "codechef", "title": "Binary Substitution", "difficulty": "Medium", "topic": "strings", "url": "https://www.codechef.com/problems/BINSUB" },
+  { "platform": "codechef", "title": "Chef and Secret Ingredients", "difficulty": "Medium", "topic": "strings", "url": "https://www.codechef.com/problems/CHFTIRED" },
+  { "platform": "codechef", "title": "String Game", "difficulty": "Medium", "topic": "strings", "url": "https://www.codechef.com/problems/STGME" },
+
+  { "platform": "codechef", "title": "Chef and Strings", "difficulty": "Hard", "topic": "strings", "url": "https://www.codechef.com/problems/CHSTR" },
+  { "platform": "codechef", "title": "Suffix Palindrome", "difficulty": "Hard", "topic": "strings", "url": "https://www.codechef.com/problems/SUFPAL" },
+  { "platform": "codechef", "title": "Palindromic Substrings", "difficulty": "Hard", "topic": "strings", "url": "https://www.codechef.com/problems/PLNDROME" },
+  { "platform": "codechef", "title": "Shift The String", "difficulty": "Hard", "topic": "strings", "url": "https://www.codechef.com/problems/TASHIFT" },
+  { "platform": "codechef", "title": "Powerful String", "difficulty": "Hard", "topic": "strings", "url": "https://www.codechef.com/problems/POWSTR" }
+]

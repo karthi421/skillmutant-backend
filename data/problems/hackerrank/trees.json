@@ -1,0 +1,24 @@
+[
+  { "platform": "hackerrank", "title": "Tree: Preorder Traversal", "difficulty": "Easy", "topic": "trees", "url": "https://www.hackerrank.com/challenges/tree-preorder-traversal/problem" },
+  { "platform": "hackerrank", "title": "Tree: Postorder Traversal", "difficulty": "Easy", "topic": "trees", "url": "https://www.hackerrank.com/challenges/tree-postorder-traversal/problem" },
+  { "platform": "hackerrank", "title": "Tree: Inorder Traversal", "difficulty": "Easy", "topic": "trees", "url": "https://www.hackerrank.com/challenges/tree-inorder-traversal/problem" },
+  { "platform": "hackerrank", "title": "Tree: Height of a Binary Tree", "difficulty": "Easy", "topic": "trees", "url": "https://www.hackerrank.com/challenges/tree-height-of-a-binary-tree/problem" },
+  { "platform": "hackerrank", "title": "Tree: Top View", "difficulty": "Easy", "topic": "trees", "url": "https://www.hackerrank.com/challenges/tree-top-view/problem" },
+  { "platform": "hackerrank", "title": "Tree: Level Order Traversal", "difficulty": "Easy", "topic": "trees", "url": "https://www.hackerrank.com/challenges/tree-level-order-traversal/problem" },
+  { "platform": "hackerrank", "title": "Binary Search Tree: Insertion", "difficulty": "Easy", "topic": "trees", "url": "https://www.hackerrank.com/challenges/binary-search-tree-insertion/problem" },
+  { "platform": "hackerrank", "title": "Binary Search Tree: Lowest Common Ancestor", "difficulty": "Easy", "topic": "trees", "url": "https://www.hackerrank.com/challenges/binary-search-tree-lowest-common-ancestor/problem" },
+  { "platform": "hackerrank", "title": "Is This a Binary Search Tree?", "difficulty": "Easy", "topic": "trees", "url": "https://www.hackerrank.com/challenges/is-binary-search-tree/problem" },
+  { "platform": "hackerrank", "title": "Tree: Huffman Decoding", "difficulty": "Easy", "topic": "trees", "url": "https://www.hackerrank.com/challenges/tree-huffman-decoding/problem" },
+
+  { "platform": "hackerrank", "title": "Self Balancing Tree (AVL)", "difficulty": "Medium", "topic": "trees", "url": "https://www.hackerrank.com/challenges/self-balancing-tree/problem" },
+  { "platform": "hackerrank", "title": "Swap Nodes [Algo]", "difficulty": "Medium", "topic": "trees", "url": "https://www.hackerrank.com/challenges/swap-nodes-algo/problem" },
+  { "platform": "hackerrank", "title": "Trees: Is This a Binary Search Tree?", "difficulty": "Medium", "topic": "trees", "url": "https://www.hackerrank.com/challenges/ctci-is-binary-search-tree/problem" },
+  { "platform": "hackerrank", "title": "Median Updates", "difficulty": "Medium", "topic": "trees", "url": "https://www.hackerrank.com/challenges/median/problem" },
+  { "platform": "hackerrank", "title": "Binary Search Tree: Lowest Common Ancestor", "difficulty": "Medium", "topic": "trees", "url": "https://www.hackerrank.com/challenges/binary-search-tree-lowest-common-ancestor/problem" },
+
+  { "platform": "hackerrank", "title": "Kitty's Calculations on a Tree", "difficulty": "Hard", "topic": "trees", "url": "https://www.hackerrank.com/challenges/kittys-calculations-on-a-tree/problem" },
+  { "platform": "hackerrank", "title": "Square-Free Tree", "difficulty": "Hard", "topic": "trees", "url": "https://www.hackerrank.com/challenges/square-free-tree/problem" },
+  { "platform": "hackerrank", "title": "Array and Simple Queries", "difficulty": "Hard", "topic": "trees", "url": "https://www.hackerrank.com/challenges/array-and-simple-queries/problem" },
+  { "platform": "hackerrank", "title": "Jenny's Subtrees", "difficulty": "Hard", "topic": "trees", "url": "https://www.hackerrank.com/challenges/jennys-subtrees/problem" },
+  { "platform": "hackerrank", "title": "Balanced Forest", "difficulty": "Hard", "topic": "trees", "url": "https://www.hackerrank.com/challenges/balanced-forest/problem" }
+]

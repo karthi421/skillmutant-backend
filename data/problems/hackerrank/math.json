@@ -1,0 +1,24 @@
+[
+  { "platform": "hackerrank", "title": "Find the Point", "difficulty": "Easy", "topic": "math", "url": "https://www.hackerrank.com/challenges/find-point/problem" },
+  { "platform": "hackerrank", "title": "Maximum Draws", "difficulty": "Easy", "topic": "math", "url": "https://www.hackerrank.com/challenges/maximum-draws/problem" },
+  { "platform": "hackerrank", "title": "Handshake", "difficulty": "Easy", "topic": "math", "url": "https://www.hackerrank.com/challenges/handshake/problem" },
+  { "platform": "hackerrank", "title": "Minimum Height Triangle", "difficulty": "Easy", "topic": "math", "url": "https://www.hackerrank.com/challenges/lowest-triangle/problem" },
+  { "platform": "hackerrank", "title": "Army Game", "difficulty": "Easy", "topic": "math", "url": "https://www.hackerrank.com/challenges/game-with-cells/problem" },
+  { "platform": "hackerrank", "title": "Leonardo's Prime Factors", "difficulty": "Easy", "topic": "math", "url": "https://www.hackerrank.com/challenges/leonardo-and-prime/problem" },
+  { "platform": "hackerrank", "title": "Connecting Towns", "difficulty": "Easy", "topic": "math", "url": "https://www.hackerrank.com/challenges/connecting-towns/problem" },
+  { "platform": "hackerrank", "title": "Cutting Paper Squares", "difficulty": "Easy", "topic": "math", "url": "https://www.hackerrank.com/challenges/pappu-and-paper-find-the-minimum-cuts/problem" },
+  { "platform": "hackerrank", "title": "Sumar and the Floating Rocks", "difficulty": "Easy", "topic": "math", "url": "https://www.hackerrank.com/challenges/harry-potter-and-the-floating-rocks/problem" },
+  { "platform": "hackerrank", "title": "Best Divisor", "difficulty": "Easy", "topic": "math", "url": "https://www.hackerrank.com/challenges/best-divisor/problem" },
+
+  { "platform": "hackerrank", "title": "Sherlock and Permutations", "difficulty": "Medium", "topic": "math", "url": "https://www.hackerrank.com/challenges/sherlock-and-permutations/problem" },
+  { "platform": "hackerrank", "title": "Constructing a Number", "difficulty": "Medium", "topic": "math", "url": "https://www.hackerrank.com/challenges/constructing-a-number/problem" },
+  { "platform": "hackerrank", "title": "Closest Number", "difficulty": "Medium", "topic": "math", "url": "https://www.hackerrank.com/challenges/closest-number/problem" },
+  { "platform": "hackerrank", "title": "Number of Subsets", "difficulty": "Medium", "topic": "math", "url": "https://www.hackerrank.com/challenges/number-of-subsets/problem" },
+  { "platform": "hackerrank", "title": "Identify Smith Numbers", "difficulty": "Medium", "topic": "math", "url": "https://www.hackerrank.com/challenges/identify-smith-numbers/problem" },
+
+  { "platform": "hackerrank", "title": "Matrix Exponentiation", "difficulty": "Hard", "topic": "math", "url": "https://www.hackerrank.com/challenges/matrix-exponentiation/problem" },
+  { "platform": "hackerrank", "title": "Modular Exponentiation", "difficulty": "Hard", "topic": "math", "url": "https://www.hackerrank.com/challenges/modular-exponentiation/problem" },
+  { "platform": "hackerrank", "title": "Euler's Criterion", "difficulty": "Hard", "topic": "math", "url": "https://www.hackerrank.com/challenges/eulers-criterion/problem" },
+  { "platform": "hackerrank", "title": "Prime Sum", "difficulty": "Hard", "topic": "math", "url": "https://www.hackerrank.com/challenges/prime-sum/problem" },
+  { "platform": "hackerrank", "title": "Possible Path", "difficulty": "Hard", "topic": "math", "url": "https://www.hackerrank.com/challenges/possible-path/problem" }
+]

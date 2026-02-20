@@ -1,0 +1,24 @@
+[
+  { "platform": "hackerrank", "title": "Maximum Element", "difficulty": "Easy", "topic": "stack", "url": "https://www.hackerrank.com/challenges/maximum-element/problem" },
+  { "platform": "hackerrank", "title": "Equal Stacks", "difficulty": "Easy", "topic": "stack", "url": "https://www.hackerrank.com/challenges/equal-stacks/problem" },
+  { "platform": "hackerrank", "title": "Balanced Brackets", "difficulty": "Easy", "topic": "stack", "url": "https://www.hackerrank.com/challenges/balanced-brackets/problem" },
+  { "platform": "hackerrank", "title": "Queue using Two Stacks", "difficulty": "Easy", "topic": "stack/queue", "url": "https://www.hackerrank.com/challenges/queue-using-two-stacks/problem" },
+  { "platform": "hackerrank", "title": "Jesse and Cookies", "difficulty": "Easy", "topic": "queue/heap", "url": "https://www.hackerrank.com/challenges/jesse-and-cookies/problem" },
+  { "platform": "hackerrank", "title": "Wait", "difficulty": "Easy", "topic": "stack", "url": "https://www.hackerrank.com/challenges/waiter/problem" },
+  { "platform": "hackerrank", "title": "Super Reduced String", "difficulty": "Easy", "topic": "stack", "url": "https://www.hackerrank.com/challenges/reduced-string/problem" },
+  { "platform": "hackerrank", "title": "Simple Text Editor", "difficulty": "Easy", "topic": "stack", "url": "https://www.hackerrank.com/challenges/simple-text-editor/problem" },
+  { "platform": "hackerrank", "title": "Array Manipulation", "difficulty": "Easy", "topic": "queue", "url": "https://www.hackerrank.com/challenges/crush/problem" },
+  { "platform": "hackerrank", "title": "Game of Two Stacks", "difficulty": "Easy", "topic": "stack", "url": "https://www.hackerrank.com/challenges/game-of-two-stacks/problem" },
+
+  { "platform": "hackerrank", "title": "Largest Rectangle", "difficulty": "Medium", "topic": "stack", "url": "https://www.hackerrank.com/challenges/largest-rectangle/problem" },
+  { "platform": "hackerrank", "title": "Castle on the Grid", "difficulty": "Medium", "topic": "queue/bfs", "url": "https://www.hackerrank.com/challenges/castle-on-the-grid/problem" },
+  { "platform": "hackerrank", "title": "Min Max Riddle", "difficulty": "Medium", "topic": "stack", "url": "https://www.hackerrank.com/challenges/min-max-riddle/problem" },
+  { "platform": "hackerrank", "title": "Down to Zero II", "difficulty": "Medium", "topic": "queue/bfs", "url": "https://www.hackerrank.com/challenges/down-to-zero-ii/problem" },
+  { "platform": "hackerrank", "title": "Truck Tour", "difficulty": "Medium", "topic": "queue", "url": "https://www.hackerrank.com/challenges/truck-tour/problem" },
+
+  { "platform": "hackerrank", "title": "Poisonous Plants", "difficulty": "Hard", "topic": "stack", "url": "https://www.hackerrank.com/challenges/poisonous-plants/problem" },
+  { "platform": "hackerrank", "title": "Find Maximum Index Product", "difficulty": "Hard", "topic": "stack", "url": "https://www.hackerrank.com/challenges/find-maximum-index-product/problem" },
+  { "platform": "hackerrank", "title": "Queries with Fixed Range", "difficulty": "Hard", "topic": "queue/sliding-window", "url": "https://www.hackerrank.com/challenges/queries-with-fixed-range/problem" },
+  { "platform": "hackerrank", "title": "Kindergarten Adventures", "difficulty": "Hard", "topic": "queue", "url": "https://www.hackerrank.com/challenges/kindergarten-adventures/problem" },
+  { "platform": "hackerrank", "title": "Jim and the Skyscrapers", "difficulty": "Hard", "topic": "stack", "url": "https://www.hackerrank.com/challenges/jim-and-the-skyscrapers/problem" }
+]

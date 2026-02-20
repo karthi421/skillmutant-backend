@@ -1,0 +1,24 @@
+[
+  { "platform": "hackerrank", "title": "Roads and Libraries", "difficulty": "Easy", "topic": "graphs", "url": "https://www.hackerrank.com/challenges/roads-and-libraries/problem" },
+  { "platform": "hackerrank", "title": "Find the Town Judge", "difficulty": "Easy", "topic": "graphs", "url": "https://www.hackerrank.com/challenges/find-the-town-judge/problem" },
+  { "platform": "hackerrank", "title": "Even Tree", "difficulty": "Easy", "topic": "graphs", "url": "https://www.hackerrank.com/challenges/even-tree/problem" },
+  { "platform": "hackerrank", "title": "Breadth First Search: Shortest Reach", "difficulty": "Easy", "topic": "graphs", "url": "https://www.hackerrank.com/challenges/bfsshortreach/problem" },
+  { "platform": "hackerrank", "title": "Snakes and Ladders: The Quickest Way Up", "difficulty": "Easy", "topic": "graphs", "url": "https://www.hackerrank.com/challenges/the-quickest-way-up/problem" },
+  { "platform": "hackerrank", "title": "Kruskal (MST): Really Special Subtree", "difficulty": "Easy", "topic": "graphs", "url": "https://www.hackerrank.com/challenges/kruskalmstrsub/problem" },
+  { "platform": "hackerrank", "title": "Prim's (MST) : Special Subtree", "difficulty": "Easy", "topic": "graphs", "url": "https://www.hackerrank.com/challenges/primsmstsub/problem" },
+  { "platform": "hackerrank", "title": "Journey to the Moon", "difficulty": "Easy", "topic": "graphs", "url": "https://www.hackerrank.com/challenges/journey-to-the-moon/problem" },
+  { "platform": "hackerrank", "title": "Ones and Zeroes", "difficulty": "Easy", "topic": "graphs", "url": "https://www.hackerrank.com/challenges/ones-and-zeroes/problem" },
+  { "platform": "hackerrank", "title": "Introduction to Nim Game", "difficulty": "Easy", "topic": "graphs", "url": "https://www.hackerrank.com/challenges/nim-game-1/problem" },
+
+  { "platform": "hackerrank", "title": "Dijkstra: Shortest Reach 2", "difficulty": "Medium", "topic": "graphs", "url": "https://www.hackerrank.com/challenges/dijkstrashortreach/problem" },
+  { "platform": "hackerrank", "title": "Course Schedule", "difficulty": "Medium", "topic": "graphs", "url": "https://www.hackerrank.com/challenges/course-schedule/problem" },
+  { "platform": "hackerrank", "title": "The Story of a Tree", "difficulty": "Medium", "topic": "graphs", "url": "https://www.hackerrank.com/challenges/the-story-of-a-tree/problem" },
+  { "platform": "hackerrank", "title": "Jack goes to Rapture", "difficulty": "Medium", "topic": "graphs", "url": "https://www.hackerrank.com/challenges/jack-goes-to-rapture/problem" },
+  { "platform": "hackerrank", "title": "Clique", "difficulty": "Medium", "topic": "graphs", "url": "https://www.hackerrank.com/challenges/clique/problem" },
+
+  { "platform": "hackerrank", "title": "Matrix", "difficulty": "Hard", "topic": "graphs", "url": "https://www.hackerrank.com/challenges/matrix/problem" },
+  { "platform": "hackerrank", "title": "Synchronous Shopping", "difficulty": "Hard", "topic": "graphs", "url": "https://www.hackerrank.com/challenges/synchronous-shopping/problem" },
+  { "platform": "hackerrank", "title": "Tear It Up", "difficulty": "Hard", "topic": "graphs", "url": "https://www.hackerrank.com/challenges/tear-it-up/problem" },
+  { "platform": "hackerrank", "title": " Crab Graphs", "difficulty": "Hard", "topic": "graphs", "url": "https://www.hackerrank.com/challenges/crab-graphs/problem" },
+  { "platform": "hackerrank", "title": "Real Estate Broker", "difficulty": "Hard", "topic": "graphs", "url": "https://www.hackerrank.com/challenges/real-estate-broker/problem" }
+]
