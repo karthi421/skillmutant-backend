@@ -50,8 +50,9 @@ router.post("/forgot-password", async (req, res) => {
     [token, expiry, user.id]
   );
 
-  const resetLink = `http://localhost:3000/reset-password/${token}`;
+  const FRONTEND_URL = process.env.FRONTEND_URL || "http://localhost:3000";
 
+const resetLink = `${FRONTEND_URL}/reset-password/${token}`;
   try {
     await sendMail({
       to: email,
