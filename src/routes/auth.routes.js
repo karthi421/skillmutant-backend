@@ -84,34 +84,44 @@ const resetLink = `${FRONTEND_URL}/reset-password/${token}`;
 /* ================= RESET PASSWORD ================= */
 
 router.post("/reset-password", async (req, res) => {
-  const { token, newPassword } = req.body;
+  try {
+    const { token, newPassword } = req.body;
 
-const result = await db.query(
-  "SELECT id FROM users WHERE LOWER(email) = LOWER($1)",
-  [email.trim()]
-);
+    console.log("Incoming token:", token);
+    console.log("Incoming newPassword:", newPassword);
 
-  const user = result.rows[0];
+    const result = await db.query(
+      `SELECT id FROM users
+       WHERE reset_token = $1
+       AND reset_token_expiry > CURRENT_TIMESTAMP`,
+      [token]
+    );
 
-  if (!user) {
-    return res.status(400).json({ error: "Invalid or expired token" });
+    console.log("DB result:", result.rows);
+
+    const user = result.rows[0];
+
+    if (!user) {
+      return res.status(400).json({ error: "Invalid or expired token" });
+    }
+
+    const hashed = await bcrypt.hash(newPassword, 10);
+
+    await db.query(
+      `UPDATE users
+       SET password = $1,
+           reset_token = NULL,
+           reset_token_expiry = NULL
+       WHERE id = $2`,
+      [hashed, user.id]
+    );
+
+    res.json({ success: true });
+  } catch (err) {
+    console.error("RESET ERROR:", err);
+    res.status(500).json({ error: "Server error" });
   }
-
-  const hashed = await bcrypt.hash(newPassword, 10);
-
-  await db.query(
-    `
-    UPDATE users
-    SET password = $1,
-        reset_token = NULL,
-        reset_token_expiry = NULL
-    WHERE id = $2
-    `,
-    [hashed, user.id]
-  );
-
-  res.json({ success: true });
-});
+});;
 
 /* ================= PROFILE UPDATE ================= */
 
