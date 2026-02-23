@@ -38,18 +38,17 @@ router.post("/forgot-password", async (req, res) => {
   }
 
   const token = crypto.randomBytes(32).toString("hex");
-  const expiry = new Date(Date.now() + 15 * 60 * 1000);
+
 
   await db.query(
     `
     UPDATE users
     SET reset_token = $1,
-        reset_token_expiry = $2
-    WHERE id = $3
+        reset_token_expiry = NOW() + INTERVAL '15 minutes'
+    WHERE id = $2
     `,
-    [token, expiry, user.id]
+    [token, user.id]
   );
-
   const FRONTEND_URL = process.env.FRONTEND_URL || "http://localhost:3000";
 
 const resetLink = `${FRONTEND_URL}/reset-password/${token}`;
@@ -87,14 +86,10 @@ const resetLink = `${FRONTEND_URL}/reset-password/${token}`;
 router.post("/reset-password", async (req, res) => {
   const { token, newPassword } = req.body;
 
-  const result = await db.query(
-    `
-    SELECT id FROM users
-    WHERE reset_token = $1
-      AND reset_token_expiry > CURRENT_TIMESTAMP
-    `,
-    [token]
-  );
+const result = await db.query(
+  "SELECT id FROM users WHERE LOWER(email) = LOWER($1)",
+  [email.trim()]
+);
 
   const user = result.rows[0];
 
