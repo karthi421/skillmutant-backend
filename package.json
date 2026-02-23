@@ -17,6 +17,7 @@
     "nodemailer": "^7.0.12",
     "pdf-parse": "^1.1.4",
     "pg": "^8.18.0",
+    "resend": "^6.9.2",
     "sequelize": "^6.37.7"
   },
   "devDependencies": {

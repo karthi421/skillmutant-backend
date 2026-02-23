@@ -1,16 +1,10 @@
-import nodemailer from "nodemailer";
+import { Resend } from "resend";
+
+const resend = new Resend(process.env.RESEND_API_KEY);
 
 export const sendMail = async ({ to, subject, html }) => {
-  const transporter = nodemailer.createTransport({
-    service: "gmail",
-    auth: {
-      user: process.env.MAIL_USER,
-      pass: process.env.MAIL_PASS,
-    },
-  });
-
-  await transporter.sendMail({
-    from: `"SkillMutant" <${process.env.MAIL_USER}>`,
+  await resend.emails.send({
+    from: "onboarding@resend.dev", // default working sender
     to,
     subject,
     html,
