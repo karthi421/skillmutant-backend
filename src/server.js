@@ -71,6 +71,16 @@ app.get("/test-db", async (_, res) => {
   }
 });
 
+app.get("/health-db", async (req, res) => {
+  try {
+    const result = await db.query("SELECT NOW()");
+    res.json({ success: true, time: result.rows[0] });
+  } catch (err) {
+    console.error("DB HEALTH ERROR:", err);
+    res.status(500).json({ error: "DB connection failed" });
+  }
+});
+
 /* ================= START SERVER ================= */
 /* ================= START SERVER ================= */
 
