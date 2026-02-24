@@ -107,21 +107,22 @@ router.post("/reset-password", async (req, res) => {
 
     const hashed = await bcrypt.hash(newPassword, 10);
 
-    await db.query(
-      `UPDATE users
-       SET password = $1,
-           reset_token = NULL,
-           reset_token_expiry = NULL
-       WHERE id = $2`,
-      [hashed, user.id]
-    );
-
+   await db.query(
+  `
+  UPDATE users
+  SET password_hash = $1,
+      reset_token = NULL,
+      reset_token_expiry = NULL
+  WHERE id = $2
+  `,
+  [hashed, user.id]
+);
     res.json({ success: true });
   } catch (err) {
     console.error("RESET ERROR:", err);
     res.status(500).json({ error: "Server error" });
   }
-});;
+});
 
 /* ================= PROFILE UPDATE ================= */
 

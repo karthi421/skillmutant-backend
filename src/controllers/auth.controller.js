@@ -197,7 +197,7 @@ export const loginPassword = async (req, res) => {
       "SELECT * FROM users WHERE email = $1",
       [email]
     );
-
+    const rows = result.rows;
     if (!result.rows.length) {
       return res.status(401).json({ error: "Invalid credentials" });
     }
