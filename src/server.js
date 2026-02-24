@@ -73,14 +73,25 @@ app.get("/test-db", async (_, res) => {
 
 app.get("/health-db", async (req, res) => {
   try {
-    const result = await db.query("SELECT NOW()");
+    const result = await pool.query("SELECT NOW()");
     res.json({ success: true, time: result.rows[0] });
   } catch (err) {
     console.error("DB HEALTH ERROR:", err);
     res.status(500).json({ error: "DB connection failed" });
   }
 });
-
+app.get("/ping", (req, res) => {
+  res.json({ status: "ok" });
+});
+app.get("/warmup", async (req, res) => {
+  try {
+    await pool.query("SELECT 1");
+    res.json({ status: "db-ready" });
+  } catch (err) {
+    console.error("Warmup DB error:", err);
+    res.status(500).json({ error: "db-failed" });
+  }
+});
 /* ================= START SERVER ================= */
 /* ================= START SERVER ================= */
 
