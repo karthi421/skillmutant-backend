@@ -168,7 +168,30 @@ router.put(
     res.json(result.rows[0]);
   }
 );
+/* ================= DELETE ACCOUNT ================= */
 
+router.delete("/delete-account", authMiddleware, async (req, res) => {
+  try {
+    const userId = req.user.id;
+
+    // delete user
+    await db.query(
+      "DELETE FROM users WHERE id = $1",
+      [userId]
+    );
+
+    res.json({
+      success: true,
+      message: "Account deleted successfully",
+    });
+
+  } catch (err) {
+    console.error("Delete account error:", err);
+    res.status(500).json({
+      error: "Failed to delete account",
+    });
+  }
+});
 export default router;
 
 /*import {
