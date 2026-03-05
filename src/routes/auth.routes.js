@@ -192,6 +192,49 @@ router.delete("/delete-account", authMiddleware, async (req, res) => {
     });
   }
 });
+
+/* ================= REGISTER ================= */
+
+router.post("/register", async (req, res) => {
+  try {
+    const { email, password, name } = req.body;
+
+    if (!email || !password) {
+      return res.status(400).json({ error: "Email and password required" });
+    }
+
+    const existing = await db.query(
+      "SELECT id FROM users WHERE email = $1",
+      [email]
+    );
+
+    if (existing.rows.length > 0) {
+      return res.status(400).json({ error: "User already exists" });
+    }
+
+    const hashed = await bcrypt.hash(password, 10);
+
+    const result = await db.query(
+      `
+      INSERT INTO users (email, password_hash, name)
+      VALUES ($1,$2,$3)
+      RETURNING id, email, name
+      `,
+      [email, hashed, name || null]
+    );
+
+    const user = result.rows[0];
+
+    res.json({
+      success: true,
+      user,
+    });
+
+  } catch (err) {
+    console.error("Register error:", err);
+    res.status(500).json({ error: "Server error" });
+  }
+});
 export default router;
 
 /*import {
